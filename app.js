@@ -184,6 +184,7 @@ const loadMoreDetails = phone => {
 }
 
 const sensorsDataIs = (sensors) => {
+    console.log(sensors);
     let sensorData = "";
     sensors.forEach((sensor) => {
         sensorData += `<li>${sensor}</li>`;
